@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from "react";
-import { X, AlertTriangle } from "lucide-react";
+import { X, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import TypewriterText from "../ui/TypewriterText";
 
@@ -18,19 +18,19 @@ const OpayNotificationBanner = () => {
 
   if (!isVisible) return null;
 
-  const notificationText = "Dear User, We're currently experiencing issues with Opay bank transfers. Please use other supported banks for your payments.";
+  const notificationText = "Great News! Opay service and all other banking services are now working perfectly. You can use any supported bank for your payments.";
 
   return (
     <div className="bg-card border-b border-border overflow-hidden relative">
       <div className="flex items-center py-3 px-5">
-        <AlertTriangle className="h-5 w-5 mr-3 flex-shrink-0 text-destructive" />
+        <CheckCircle className="h-5 w-5 mr-3 flex-shrink-0 text-green-600" />
         <div className="flex-1 text-sm font-medium min-h-[20px] overflow-hidden">
           {showTypewriter ? (
             <div className="animate-marquee whitespace-nowrap">
               <TypewriterText 
                 text={notificationText}
                 speed={50}
-                className="text-destructive font-medium inline-block"
+                className="text-green-600 font-medium inline-block"
               />
             </div>
           ) : (
