@@ -33,15 +33,15 @@ const BuyBPCPayment = () => {
                 alt="Opay Logo"
                 className="w-10 h-10 mb-2"
               />
-              <h2 className="text-red-600 text-lg font-bold mb-2">
-                Opay Service Down
+              <h2 className="text-green-600 text-lg font-bold mb-2">
+                All Services Restored
               </h2>
               <p className="text-gray-700 mb-2 text-sm">
-                Please do not use Opay bank for payments at this time.
+                All banking services including Opay are now working perfectly.
               </p>
-              <div className="bg-red-100 border border-red-400 text-red-700 px-3 py-2 rounded mb-3 text-xs">
-                The Opay bank service is currently experiencing issues. Please
-                use other supported banks for your payment.
+              <div className="bg-green-100 border border-green-400 text-green-700 px-3 py-2 rounded mb-3 text-xs">
+                Opay and all other supported banks are now fully operational.
+                You can use any bank for your payments.
               </div>
               <Button
                 className="bg-blue-600 hover:bg-blue-700 w-full py-2 text-white text-sm"
