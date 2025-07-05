@@ -11,7 +11,7 @@ const BuyBPCVerifying = () => {
       setCountdown((prev) => {
         if (prev <= 1) {
           clearInterval(timer);
-          navigate("/buy-bpc/confirmation");
+          navigate("/buy-bpc/success");
           return 0;
         }
         return prev - 1;

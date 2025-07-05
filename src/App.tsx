@@ -20,6 +20,7 @@ import BuyBPCProcessing from "./pages/BuyBPCProcessing";
 import BuyBPCPayment from "./pages/BuyBPCPayment";
 import BuyBPCVerifying from "./pages/BuyBPCVerifying";
 import BuyBPCConfirmation from "./pages/BuyBPCConfirmation";
+import BuyBPCSuccess from "./pages/BuyBPCSuccess";
 import AirtimePurchase from "./pages/AirtimePurchase";
 import DataPurchase from "./pages/DataPurchase";
 import Support from "./pages/Support";
@@ -102,6 +103,7 @@ const App = () => (
           <Route path="/buy-bpc/payment" element={<BuyBPCPayment />} />
           <Route path="/buy-bpc/verifying" element={<BuyBPCVerifying />} />
           <Route path="/buy-bpc/confirmation" element={<BuyBPCConfirmation />} />
+          <Route path="/buy-bpc/success" element={<BuyBPCSuccess />} />
           <Route path="/airtime" element={<AirtimePurchase />} />
           <Route path="/data" element={<DataPurchase />} />
           <Route path="/support" element={<Support />} />
